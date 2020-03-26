@@ -1,8 +1,12 @@
 ActiveAdmin.register Product do
 
-  permit_params :name, :price, :quantity 
+  permit_params :name, :price, :quantity, :menu_id 
 
   config.comments = false
+
+  remove_filter :name, :price, :quantity
+
+
   
   # show do
   #   attributes_table do

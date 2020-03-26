@@ -4,6 +4,8 @@ ActiveAdmin.register Menu do
 
   config.comments = false
 
+  remove_filter :name
+
 #   index do
 #   selectable_column
 #   column :name
