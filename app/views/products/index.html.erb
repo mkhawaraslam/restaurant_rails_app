@@ -1,0 +1,15 @@
+<h1 align="center">List Of Products</h1>
+<% @product.each do |product| %>
+ <div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+   <div class="well well-lg">
+    <div>
+     <%= product.name %>
+    </div>
+    <div class="article-body">
+     <%= product.price %>
+    </div>
+   </div>
+  </div>
+ </div>
+<% end %>

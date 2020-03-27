@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2020_03_25_070605) do
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.integer "price"
-    t.integer "quantity"
+-    t.integer "quantity"
     t.integer "menu_id"
   end
 

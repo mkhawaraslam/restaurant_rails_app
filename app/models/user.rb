@@ -7,6 +7,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
          
   def set_default_role
-  	self.role ||= :admin
+  	self.role ||= :user
   end
 end

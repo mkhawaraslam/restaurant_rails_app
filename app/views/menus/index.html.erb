@@ -1,0 +1,6 @@
+<h1 align = "center">Menus</h1>
+<div align="center">
+	<% @menu.each do |menu| %>
+	<%= link_to menu.name, menu_products_path(menu.id) %>
+	<% end %>
+</div>

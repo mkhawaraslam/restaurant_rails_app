@@ -1,6 +1,6 @@
 ActiveAdmin.register User do
 
-  permit_params :email, :password, :password_confirmation, :f_name, :l_nmae, :role
+  permit_params :email, :password, :password_confirmation, :f_name, :l_name, :role
 
   # config.comments = false
   
